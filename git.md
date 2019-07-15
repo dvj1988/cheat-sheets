@@ -32,3 +32,8 @@ git tag -a tagName -m "Tag Message"
 ```
 git tag -n
 ```
+
+**Push all tags to origin**
+```
+git push <remote-origin> <branch-name> --tags
+```
