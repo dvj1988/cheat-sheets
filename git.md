@@ -37,3 +37,10 @@ git tag -n
 ```
 git push <remote-origin> <branch-name> --tags
 ```
+
+### Git Fetch
+
+**Clean outdated branches**
+```
+git fetch --prune
+```
