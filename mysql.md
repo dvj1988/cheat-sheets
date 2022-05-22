@@ -22,6 +22,11 @@ mysqldump -P {port} -h {remote server ip} \
     -u {username} -p database_name table_name > dump_file_name.sql
 ```
 
+## Connect to local MySQL instance
+```mysql
+mysql -uroot
+```
+
 ## Get list of databases
 ```mysql
 show DATABASES;
